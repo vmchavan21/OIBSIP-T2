@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UV-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Vaishnavi Chavan </title>
+        <link rel=" stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--nav-->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="vaishnavi.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </nav>
+                <div class="header.text">
+                        <h1> Hi,I'm <span> vaishnavi</span><br>chavan from junnar</h1>
+                </div>
+            </div>
+        </div>
+<!--about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="passport.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me </h1>
+                <p>I'm BE pursuing student From smt kashibai navale college of engineering</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links active-links" onclick="opentab('experience')">experience</p>
+                    <p class="tab-links active-links" onclick="opentab('education')">education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>web devlopment</span><br>HTML,CSS,JS,MYSQL</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>2023-current</span><br>Oasis Infobyte Intership</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>BE-ENTC-pursuing</li>
+                        <li><span>2018-2020-</span><br>hsc-69 %</li>
+                        <li><span>2018</span><br>ssc-90.40%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+    </body>
+</html>
